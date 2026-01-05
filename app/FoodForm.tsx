@@ -71,7 +71,7 @@ export default function FoodForm() {
       <div className="text-sm text-gray-600 bg-gray-50 p-3 rounded">
   <p>💹 入力された廃棄量は下のグラフに可視化されます。</p>
   <p>⚠️ 廃棄量が特に多い食品上位３つは警告表示されます。</p>
-  <p>😊 その中でも最も廃棄量が多い食品をAIが分析し、優先的にレシピを提案します。</p>
+  <p>😊 その中でも最も廃棄量が多い食品を分析し、優先的にレシピを提案します。</p>
 </div>
 
 

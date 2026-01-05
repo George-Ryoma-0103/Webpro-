@@ -78,7 +78,7 @@ export default function RecipeSuggest({ foods }: Props) {
       {/* ===== AI提案 ===== */}
       <div>
         <h2 className="text-xl font-extrabold text-green-700 mb-2">
-          🤖 AIによるレシピ提案
+          🍽️🐣 レシピ提案
         </h2>
 
         <p className="text-sm mb-2">
@@ -94,7 +94,7 @@ export default function RecipeSuggest({ foods }: Props) {
 
         {/* ===== API判定結果 ===== */}
         <div className="text-sm mb-3">
-          🔔 今日作るべき度：
+          🔔 今日中に使って調理すべき度：
           <span className="ml-1 font-bold text-green-700">
             {rank}ランク
           </span>
@@ -108,7 +108,7 @@ export default function RecipeSuggest({ foods }: Props) {
             onClick={() => setSeed((s) => s + 1)}
             className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
           >
-            🔄 AI提案を再生成
+            🔄 提案を再生成
           </button>
 
           <a
@@ -123,7 +123,7 @@ export default function RecipeSuggest({ foods }: Props) {
       </div>
 
       <p className="text-xs text-gray-500">
-        ※ 廃棄量データをもとにサーバーサイドAPIが判定しています
+        ※ ランクは、廃棄量データをもとにサーバーサイドAPIが判定しています。
       </p>
     </div>
   );
